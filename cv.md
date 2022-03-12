@@ -17,10 +17,59 @@ nina.kostenko.js@gmail.com :: [Linkedin](https://www.linkedin.com/in/nina-kosten
 
 ##ПРОФЕСІЙНІ НАВИЧКИ
 ***
-Мови програмування:   JavaScript, TypeScript, HTML5, CSS3
 
-Фреймворки та бібліотеки: React, Redux, Vue.js
+Мови програмування:     JavaScript, TypeScript, HTML5, CSS3
 
-Синтаксичні препроцесори: SASS (SCSS)
+Фреймворки та бібліотеки:     React, Redux, Vue.js
 
-Інструменти та технології: Git, Rest API, Firebase Hosting
+Синтаксичні препроцесори:     SASS (SCSS)
+
+Інструменти та технології:      Git, Rest API, Firebase Hosting
+
+##ПРОЕКТИ
+***
+###Магазин кави
+Проект виконаний в рамках вивчення бібліотеки React.js та завантажений на Firebase Hosting. Додаток
+складається з декількох сторінок, які містять інформацію про різні види кави. Можна отримати більш
+детальну інформацію натиснувши на картку з кавою, в результаті чого відкриється модальне вікно.
+
+Технології: React.js, JavaScript, HTML5, CSS3, Firebase
+
+GitHub Репозиторій: https://github.com/ninakostenko/coffee-store
+
+Посилання на додаток: https://coffee-701ce.web.app/
+***
+###Список публікацій
+Проект виконаний в рамках вивчення бібліотеки React.js та завантажений на Firebase Hosting. Додаток
+містить список публікацій з можливістю їх пошуку, фільтрації, створення та видалення. В додатку
+присутня пагінація.
+
+Технології: React.js, JavaScript, HTML5, CSS3, Firebase
+
+GitHub Репозиторій: https://github.com/ninakostenko/posts
+
+Посилання на додаток: https://posts-14dd0.web.app/posts
+***
+###Калькулятор
+Проект виконаний в рамках вивчення фреймворку Vue.js та завантажений на Firebase Hosting. Додаток
+являє собою базовий калькулятор.
+
+Технології: Vue.js, JavaScript, HTML5, CSS3, Firebase
+
+GitHub Репозиторій: https://github.com/ninakostenko/calculator
+
+Посилання на додаток: https://calculator-c386d.web.app/
+***
+###Магазин продуктів
+Проект виконаний в рамках вивчення фреймворку Vue.js та завантажений на Firebase Hosting. Додаток
+складається з однієї сторінки, яка містить інформацію про продавця та список продуктів.
+
+Технології: Vue.js, JavaScript, HTML5, CSS3, Firebase
+
+GitHub Репозиторій: https://github.com/ninakostenko/groceries
+
+Посилання на додаток: https://groceries-store-674d4.web.app/
+
+
+
+
