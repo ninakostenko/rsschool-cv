@@ -70,6 +70,11 @@ GitHub Репозиторій: https://github.com/ninakostenko/groceries
 
 Посилання на додаток: https://groceries-store-674d4.web.app/
 
+###МОВИ
+***
+Українська – Рідна :: Російська – Вільне володіння :: Англійська – Базовий рівень
+
+
 
 
 
