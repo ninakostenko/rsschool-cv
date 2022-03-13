@@ -29,8 +29,8 @@ nina.kostenko.js@gmail.com :: [Linkedin](https://www.linkedin.com/in/nina-kosten
 
 Інструменти та технології:      Git, Rest API, Firebase Hosting
 
-
-##ПРОЕКТИ
+***
+##ПРОЕКТИ:
 ***
 ###Магазин кави
 
