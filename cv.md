@@ -5,7 +5,7 @@
 nina.kostenko.js@gmail.com :: [Linkedin](https://www.linkedin.com/in/nina-kostenko-65513a231/) :: [GitHub](https://github.com/ninakostenko)
 
 ## ПРО СЕБЕ
-***
+
 В грудні 2020 я почала вивчення програмування у напрямку React, оскільки прийняла рішення змінити вид
 професійної діяльності. Професія розробника зацікавила мене своєю інноваційністю, гнучкістю та
 відсутністю стереотипів. Я завжди націлена на результат в своїй роботі і вважаю, що не існує такої
@@ -13,13 +13,12 @@ nina.kostenko.js@gmail.com :: [Linkedin](https://www.linkedin.com/in/nina-kosten
 додатків за допомогою React та Redux. Також я маю початкові знання фреймворку Vue.js.
 
 ## КУРСИ
-***
+
 ### “Полный курс по JavaScript + React - с нуля до результата” - Udemy
 Посилання на сертифікат: http://ude.my/UC-43929620-d54b-45a8-872e-b6438a7541ee
 
 
 ## ПРОФЕСІЙНІ НАВИЧКИ
-***
 
 Мови програмування:     JavaScript, TypeScript, HTML5, CSS3
 
@@ -29,10 +28,10 @@ nina.kostenko.js@gmail.com :: [Linkedin](https://www.linkedin.com/in/nina-kosten
 
 Інструменти та технології:      Git, Rest API, Firebase Hosting
 
-***
 ## ПРОЕКТИ:
-***
+
 ### Магазин кави
+***
 
 Проект виконаний в рамках вивчення бібліотеки React.js та завантажений на Firebase Hosting. Додаток
 складається з декількох сторінок, які містять інформацію про різні види кави. Можна отримати більш
@@ -43,8 +42,9 @@ nina.kostenko.js@gmail.com :: [Linkedin](https://www.linkedin.com/in/nina-kosten
 GitHub Репозиторій: https://github.com/ninakostenko/coffee-store
 
 Посилання на додаток: https://coffee-701ce.web.app/
-***
+
 ### Список публікацій
+***
 
 Проект виконаний в рамках вивчення бібліотеки React.js та завантажений на Firebase Hosting. Додаток
 містить список публікацій з можливістю їх пошуку, фільтрації, створення та видалення. В додатку
@@ -55,8 +55,9 @@ GitHub Репозиторій: https://github.com/ninakostenko/coffee-store
 GitHub Репозиторій: https://github.com/ninakostenko/posts
 
 Посилання на додаток: https://posts-14dd0.web.app/posts
-***
+
 ### Калькулятор
+***
 
 Проект виконаний в рамках вивчення фреймворку Vue.js та завантажений на Firebase Hosting. Додаток
 являє собою базовий калькулятор.
@@ -66,8 +67,9 @@ GitHub Репозиторій: https://github.com/ninakostenko/posts
 GitHub Репозиторій: https://github.com/ninakostenko/calculator
 
 Посилання на додаток: https://calculator-c386d.web.app/
-***
+
 ### Магазин продуктів
+***
 
 Проект виконаний в рамках вивчення фреймворку Vue.js та завантажений на Firebase Hosting. Додаток
 складається з однієї сторінки, яка містить інформацію про продавця та список продуктів.
@@ -79,7 +81,6 @@ GitHub Репозиторій: https://github.com/ninakostenko/groceries
 Посилання на додаток: https://groceries-store-674d4.web.app/
 
 ### МОВИ
-
 ***
 Українська – Рідна :: Російська – Вільне володіння :: Англійська – Базовий рівень
 
