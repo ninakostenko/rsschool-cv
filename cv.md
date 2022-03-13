@@ -1,5 +1,7 @@
 #НІНА КОСТЕНКО
+
 ##FRONT-END DEVELOPER (React)
+
 nina.kostenko.js@gmail.com :: [Linkedin](https://www.linkedin.com/in/nina-kostenko-65513a231/) :: [GitHub](https://github.com/ninakostenko)
 
 ##ПРО СЕБЕ
@@ -15,6 +17,7 @@ nina.kostenko.js@gmail.com :: [Linkedin](https://www.linkedin.com/in/nina-kosten
 ###“Полный курс по JavaScript + React - с нуля до результата” - Udemy
 Посилання на сертифікат: http://ude.my/UC-43929620-d54b-45a8-872e-b6438a7541ee
 
+
 ##ПРОФЕСІЙНІ НАВИЧКИ
 ***
 
@@ -25,6 +28,7 @@ nina.kostenko.js@gmail.com :: [Linkedin](https://www.linkedin.com/in/nina-kosten
 Синтаксичні препроцесори:     SASS (SCSS)
 
 Інструменти та технології:      Git, Rest API, Firebase Hosting
+
 
 ##ПРОЕКТИ
 ***
