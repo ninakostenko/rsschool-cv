@@ -78,3 +78,16 @@ a {
     color: #1e6eeae6;
     margin: 10px;
 }
+
+.pos {
+    height: 250px;
+    position: absolute;
+    background-color:  #1d3e5b;
+}
+.poss {
+    width: 450px;
+    height: 450px;
+    background-color: dimgray;
+    position: relative;
+    top:20px;
+}
