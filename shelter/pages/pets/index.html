@@ -5,113 +5,136 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian&family=Open+Sans:ital@1&family=Playfair+Display:ital@1&family=Roboto+Slab:wght@200&family=Roboto:wght@300&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian&family=Open+Sans:ital@0;1&family=Playfair+Display:ital@1&family=Roboto+Slab:wght@200&family=Roboto:wght@300&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
     <title>shelter page-2</title>
 </head>
 <body>
+<div class="container">
+    <header class="header">
+        <div class="header-logo">
+            <h1 class="header-title">Cozy House</h1><br/>
+            <p class="header-text">Shelter for pets in Boston</p>
+        </div>
+        <nav class="menu">
+            <div class="menu-wrap">
+                <ul class="menu-list">
+                    <li class="menu-list_item">
+                        <a class="menu-list_link " href="../main/index.html">About the shelter</a>
+                    </li>
+                    <li class="menu-list_item">
+                        <a class="menu-list_link menu-list_link-active" href="#">Our pets</a>
+                    </li>
+                    <li class="menu-list_item">
+                        <a class="menu-list_link" href="../main/index.html">Help the shelter</a>
+                    </li>
+                    <li class="menu-list_item">
+                        <a class="menu-list_link" href="#footer">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="slider">
+        <h3 class="slider-title">Our friends who <br/> are looking for a house</h3>
+        <div class="slider-cards">
+            <div class="slider-card">
+                <img class="slider-card_pet" src="../../assets/images/pets-katrine.png" alt="pet">
+                <p class="slider-card_name">Katrine</p>
+                <a class="slider-card_search" href="#">Learn more</a>
+            </div>
+            <div class="slider-card">
+                <img class="slider-card_pet" src="../../assets/images/pets-jennifer.png" alt="pet">
+                <p class="slider-card_name">Jennifer</p>
+                <a class="slider-card_search" href="#">Learn more</a>
+            </div>
+            <div class="slider-card">
+                <img class="slider-card_pet" src="../../assets/images/pets-woody.png" alt="pet">
+                <p class="slider-card_name">Woody</p>
+                <a class="slider-card_search" href="#">Learn more</a>
+            </div>
+            <div class="slider-card">
+                <img class="slider-card_pet" src="../../assets/images/pets-sophia.png" alt="pet">
+                <p class="slider-card_name">Sophia</p>
+                <a class="slider-card_search" href="#">Learn more</a>
+            </div>
+            <div class="slider-card">
+                <img class="slider-card_pet" src="../../assets/images/pets-timmy.png" alt="pet">
+                <p class="slider-card_name">Timmy</p>
+                <a class="slider-card_search" href="#">Learn more</a>
+            </div>
+            <div class="slider-card">
+                <img class="slider-card_pet" src="../../assets/images/pets-charly.png" alt="pet">
+                <p class="slider-card_name">Charly</p>
+                <a class="slider-card_search" href="#">Learn more</a>
+            </div>
+            <div class="slider-card">
+                <img class="slider-card_pet" src="../../assets/images/pets-scarlet.png" alt="pet">
+                <p class="slider-card_name">Scarlett</p>
+                <a class="slider-card_search" href="#">Learn more</a>
+            </div>
+            <div class="slider-card">
+                <img class="slider-card_pet" src="../../assets/images/pets-freddie.png" alt="pet">
+                <p class="slider-card_name">Freddie</p>
+                <a class="slider-card_search" href="#">Learn more</a>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="button-paginator" disabled>
+                <img class="button-paginator_img" src="../../assets/icons/button_paginator_inactive.png" alt="button">
+            </button>
+            <button class="button-paginator" disabled>
+                <img class="button-paginator_img" src="../../assets/icons/button_paginator.png" alt="button">
+            </button>
+            <button class="button-paginator">
+                <img class="button-paginator_img" src="../../assets/icons/button_paginator_1.png" alt="button">
+            </button>
+            <button class="button-paginator button-active">
+                <img class="button-paginator_img" src="../../assets/icons/button_paginator%20(2).png" alt="button">
+            </button>
+            <button class="button-paginator button-active">
+                <img class="button-paginator_img" src="../../assets/icons/button_paginator_3.png" alt="button">
+            </button>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footer-inform">
+            <div class="footer-items">
+                <h3 class="footer-title">For questions <br/> and suggestions</h3>
+                <div class="footer-icons">
+                    <img class="footer-icon" src="../../assets/icons/icon-email.svg" alt="icon">
+                    <a class="footer-linc" href="mailto:email@shelter.com">email@shelter.com</a>
+                </div>
+                <div class="footer-icons">
+                    <img class="footer-icon" src="../../assets/icons/icon-phone.svg" alt="icon">
+                    <a class="footer-linc phone" href="tel:+13 674 567 75 54">+13 674 567 75 54</a>
+                </div>
 
-<header class="header">
-    <div class="header-logo">
-        <span>Cozy House</span><br/>
-        <span>Shelter for pets in Boston</span>
-    </div>
-    <nav class="menu">
-        <ul class="menu-list">
-            <li class="menu-list_item">
-                <a class="menu-list_link menu-list_link-active" href="#">About the shelter</a>
-            </li>
-            <li class="menu-list_item">
-                <a class="menu-list_link" href="#">Our pets</a>
-            </li>
-            <li class="menu-list_item">
-                <a class="menu-list_link" href="#">Help the shelter</a>
-            </li>
-            <li class="menu-list_item">
-                <a class="menu-list_link" href="#">Contacts</a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<section class="friends">
-    <h2 class="fiends-our">Our friends who are looking for a house</h2>
-    <div class="slider-cards">
-        <div class="slider-card">
-            <img class="slider-card_pet" src="../../assets/images/pets-katrine.png" alt="pet">
-            <p class="slider-card_name">Katrine</p>
-            <a class="slider-card_search" href="#">Learn more</a>
+            </div>
+            <div class="footer-items">
+                <h3 class="footer-title">We are waiting <br/> for your visit</h3>
+                <div class="footer-item">
+                    <img class="footer-ic" src="../../assets/icons/icon-marker.svg" alt="icon">
+                    <a target="_blank" href="https://www.google.com.ua/maps/place/Central+St,+Boston,+MA,+%D0%A1%D0%A8%D0%90/@42.3588432,-71.0551304,17z/data=!3m1!4b1!4m5!3m4!1s0x89e370865345ba21:0x44f6c81aa9436fb7!8m2!3d42.3588393!4d-71.0529417?hl=ru"
+                       class="footer-info">1 Central Street, Boston (entrance from the store)</a>
+                </div>
+                <div class="footer-item ">
+                    <img class="footer-ic" src="../../assets/icons/icon-marker.svg" alt="icon">
+                    <a target="_blank" href="https://www.google.com.ua/maps/search/18+South+Park,+London+/@51.4801382,-0.1778081,12z/data=!3m1!4b1?hl=ru" class="footer-info">18 South Park, London</a>
+                </div>
+            </div>
+            <div class="footer-dog">
+                <img class="footer-img" src="../../assets/images/footer-puppy.png" alt="dog">
+            </div>
         </div>
-        <div class="slider-card">
-            <img class="slider-card_pet" src="../../assets/images/pets-jennifer.png" alt="pet">
-            <p class="slider-card_name">Jennifer</p>
-            <a class="slider-card_search" href="#">Learn more</a>
-        </div>
-        <div class="slider-card">
-            <img class="slider-card_pet" src="../../assets/images/pets-woody.png" alt="pet">
-            <p class="slider-card_name">Woody</p>
-            <a class="slider-card_search" href="#">Learn more</a>
-        </div>
-        <div class="slider-card">
-            <img class="slider-card_pet" src="../../assets/images/pets-sophia.png" alt="pet">
-            <p class="slider-card_name">Sophia</p>
-            <a class="slider-card_search" href="#">Learn more</a>
-        </div>
-        <div class="slider-card">
-            <img class="slider-card_pet" src="../../assets/images/pets-timmy.png" alt="pet">
-            <p class="slider-card_name">Timmy</p>
-            <a class="slider-card_search" href="#">Learn more</a>
-        </div>
-        <div class="slider-card">
-            <img class="slider-card_pet" src="../../assets/images/pets-charly.png" alt="pet">
-            <p class="slider-card_name">Charly</p>
-            <a class="slider-card_search" href="#">Learn more</a>
-        </div>
-        <div class="slider-card">
-            <img class="slider-card_pet" src="../../assets/images/pets-scarlet.png" alt="pet">
-            <p class="slider-card_name">Scarlett</p>
-            <a class="slider-card_search" href="#">Learn more</a>
-        </div>
-        <div class="slider-card">
-            <img class="slider-card_pet" src="../../assets/images/pets-freddie.png" alt="pet">
-            <p class="slider-card_name">Freddie</p>
-            <a class="slider-card_search" href="#">Learn more</a>
-        </div>
-    </div>
-    <div class="buttons">
-        <button class="button-paginator">
-            <img class="button-paginator_img" src="../../assets/icons/button_paginator_inactive.png" alt="button">
-        </button>
-        <button class="button-paginator">
-            <img class="button-paginator_img" src="../../assets/icons/button_paginator.png" alt="button">
-        </button>
-        <button class="button-paginator">
-            <img class="button-paginator_img" src="../../assets/icons/button_paginator_1.png" alt="button">
-        </button>
-        <button class="button-paginator">
-            <img class="button-paginator_img" src="../../assets/icons/button_paginator%20(2).png" alt="button">
-        </button>
-        <button class="button-paginator">
-            <img class="button-paginator_img" src="../../assets/icons/button_paginator_3.png" alt="button">
-        </button>
-    </div>
-</section>
-<footer class="footer">
-    <div class="footer-item">
-        <span class="footer-title">For questions and suggestions</span>
-        <img class="footer-icon" src="../../assets/icons/icon-email.svg" alt="icon">
-        <a class="footer-linc" href="#">email@shelter.com</a>
-        <img class="footer-phone" src="../../assets/icons/icon-phone.svg" alt="icon">
-        <a class="footer-phone" href="tel:+13 674 567 75 54">+13 674 567 75 54</a>
-    </div>
-    <div class="footer-item">
-        <span class="footer-title">We are waiting for your visit</span>
-        <img class="footer-icon" src="../../assets/icons/icon-marker.svg" alt="icon">
-        <span class="footer-info">1 Central Street, Boston (entrance from the store)</span>
-        <img class="footer-phone" src="../../assets/icons/icon-marker.svg" alt="icon">
-        <span class="footer-info">18 South Park, London</span>
-    </div>
-    <div class="footer-dog">
-        <img class="footer-img" src="../../assets/images/footer-puppy.png" alt="dog" >
-    </div>
-</footer>
-
+    </footer>
+</div>
 </body>
 </html>

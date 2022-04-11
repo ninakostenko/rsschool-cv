@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header-title {
+    font-family: 'Georgia', serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #545454;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.header-text {
+    font-family: 'Arial', sans-serif;
+    color: #292929;
+    padding-left: 44px;
+    margin-top: -10px;
+    font-size: 13px;
+}
+
+.header {
+    background-color: #FFFFFF;
+    height: 120px;
+}
+
+.menu-wrap {
+    position: absolute;
+    padding-left: 680px;
+    top: 46px;
+
+}
+
+.menu-list_item {
+    display: inline-block;
+    padding-left: 35px;
+}
+
+.menu-list_link {
+    display: block;
+    height: 27px;
+    font-family: 'Arial', sans-serif;
+    color: #545454;;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.menu-list_link-active {
+    border-bottom: 3px solid #F1CDB3;
+}
+
+.menu-list_link-active:hover {
+    cursor: pointer;
+}
+
+#slider {
+    background-color: #F6F6F6;
+    height: 1342px;
+}
+
+.slider-title {
+    text-align: center;
+    font-family: 'Georgia', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    color: #545454;
+    padding-top: 80px;
+}
+
+.slider-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.slider-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FAFAFA;
+    width: 270px;
+    height: 435px;
+    margin: 15px 20px;
+}
+
+.slider-card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease-in-out;
+}
+
+.slider-card_pet {
+    width: 270px;
+    height: 270px;
+}
+
+.slider-card_name {
+    font-family: 'Georgia', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #545454;
+}
+
+.slider-card_search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 45px;
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-family: 'Georgia', sans-serif;
+    font-size: 17px;
+    color: #292929;
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.slider-card_search:hover {
+    background-color: #F1CDB3;
+}
+
+.buttons {
+    margin-left: 430px;
+    padding-top: 40px;
+}
+
+.button-paginator {
+    width: 52px;
+    height: 52px;
+    cursor: pointer;
+    border: 0 solid #F1CDB3;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.button-active:hover {
+    background-color: #F1CDB3;
+
+}
+
+
+#footer {
+    height: 350px;
+    background: radial-gradient(100% 215.42% at 0% 0%, #513D2F 0%, #1A1A1C 100%),
+    linear-gradient(0deg, #211F20, #211F20);
+    margin-bottom: 100px;
+}
+
+.footer-inform {
+    display: flex;
+}
+
+
+.footer-item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 32px;
+}
+
+.footer-linc {
+    margin-left: 17px;
+}
+
+.footer-title {
+    font-family: 'Georgia', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin: 56px 40px;
+}
+
+.footer-icons {
+    display: flex;
+    width: 239px;
+    height: 32px;
+    margin-top: 44px;
+}
+
+.footer-icon {
+    width: 40px;
+    height: 32px;
+    margin: 0 0 0 40px;
+}
+
+.footer-ic {
+    width: 22px;
+    height: 32px;
+    margin-right: 20px;
+}
+
+.footer-linc {
+    font-family: 'Georgia', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: #F1CDB3;
+}
+
+
+.footer-info {
+    font-family: 'Georgia', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    width: 302px;
+    height: 46px;
+}
+
+.footer-img {
+    display: flex;
+    width: 300px;
+    height: 310px;
+    margin: 40px 40px 0 167px;
+}
+
+
