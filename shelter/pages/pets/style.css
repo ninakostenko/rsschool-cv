@@ -25,6 +25,10 @@ li {
     color: #545454;
     padding-top: 30px;
     padding-left: 40px;
+    cursor: pointer;
+}
+.header-title:hover {
+    color: #F1CDB3 ;
 }
 
 .header-text {
@@ -36,6 +40,9 @@ li {
 }
 
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     background-color: #FFFFFF;
     height: 120px;
 }
@@ -50,6 +57,9 @@ li {
 .menu-list_item {
     display: inline-block;
     padding-left: 35px;
+}
+.menu-list_link:hover {
+    border-bottom: 3px solid #F1CDB3;
 }
 
 .menu-list_link {
@@ -115,6 +125,7 @@ li {
 .slider-card_pet {
     width: 270px;
     height: 270px;
+    margin: -13px;
 }
 
 .slider-card_name {
@@ -163,7 +174,6 @@ li {
 
 .button-active:hover {
     background-color: #F1CDB3;
-
 }
 
 
@@ -171,7 +181,6 @@ li {
     height: 350px;
     background: radial-gradient(100% 215.42% at 0% 0%, #513D2F 0%, #1A1A1C 100%),
     linear-gradient(0deg, #211F20, #211F20);
-    margin-bottom: 100px;
 }
 
 .footer-inform {
@@ -246,7 +255,7 @@ li {
     display: flex;
     width: 300px;
     height: 310px;
-    margin: 40px 40px 0 167px;
+    margin: 40px 40px 0 236px;
 }
 
 
