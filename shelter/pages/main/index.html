@@ -19,19 +19,21 @@
 <body>
 <div class="container">
     <header class="header">
-        <div class="header-logo">
+        <div class="header-logo" id="logo">
             <h1 class="header-title">Cozy House</h1><br/>
             <p class="header-text">Shelter for pets in Boston</p>
         </div>
-        <div class="header-btn">
+
+        <div class="header-btn" id="burger">
             <div></div>
             <div></div>
             <div></div>
         </div>
+        <div class="popup" id="popup"></div>
 
         <nav class="menu">
             <div class="menu-wrap">
-                <ul class="menu-list">
+                <ul class="menu-list" id="menu">
                     <li class="menu-list_item">
                         <a class="menu-list_link menu-list_link-active" href="#about">About the shelter</a>
                     </li>
@@ -245,5 +247,6 @@
     </footer>
 
 </div>
+<script src="script.js"></script>
 </body>
 </html>

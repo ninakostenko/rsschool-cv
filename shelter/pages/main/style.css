@@ -54,7 +54,7 @@ li {
 }
 
 .header-btn div {
-    width: 36px;
+    width: 30px;
     height: 2px;
     background-color: #F1CDB3;
     margin: 5px 0;
@@ -565,6 +565,141 @@ li {
     }
 }
 
+@media (max-width: 780px) {
+    .menu-wrap {
+        position: absolute;
+        padding-left: 270px;
+        top: 76px;
+    }
+
+
+    .header {
+        height: 1165px;
+    }
+
+    .header-title {
+        padding-top: 30px;
+    }
+
+
+    .menu-list {
+        font-size: 15px;
+    }
+
+    .header-content-wrapper {
+        max-width: 569px;
+        display: block;
+        justify-content: center;
+        margin: 150px 100px 0 99px;
+    }
+
+    .header-puppy {
+        width: 569px;
+        height: 593px;
+        position: absolute;
+        top: 572px;
+        right: 19px;
+        bottom: 0;
+    }
+
+    .header-content-wrapper {
+        margin: -173px 106px;
+    }
+
+    .houses-linc {
+        margin: 42px 127px 0 126px;
+    }
+
+    #about {
+
+        height: 1048px;
+    }
+
+    .about-shelter {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .about-shelter_img-pets {
+        margin: 69px 234px 100px 234px;
+    }
+
+    .slider-cards {
+        display: flex;
+        flex-wrap: nowrap;
+
+    }
+
+    .slider-card-vis {
+        display: none;
+    }
+
+    .search-link {
+        margin: 60px 254px 100px;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 630px;
+        margin: 60px 69px 100px;
+        padding: 0;
+    }
+
+    .block-row {
+        margin: 30px;
+        padding: 0;
+    }
+
+    .block {
+        margin: 30px;
+    }
+
+    .donation {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .donation-img {
+        margin: 60px 132px 100px;
+    }
+
+    .donation-item {
+        margin: 80px 194px;
+    }
+
+
+    .footer-inform {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footer-items {
+        margin: 30px 61px 45px 64px;
+    }
+
+    .footer-items-one {
+        margin: 0;
+    }
+
+    .footer-items-two {
+        margin: -22px 51px 1px -6px;
+    }
+
+    .footer-items:nth-child(2) {
+        margin: 0;
+    }
+
+    .footer-img {
+        margin: 1px 234px;
+    }
+
+}
+
+
 @media (max-width: 767px) {
     .header {
         height: 1165px;
@@ -699,6 +834,102 @@ li {
 
 
 @media (max-width: 440px) {
+    .menu {
+        display: none;
+    }
+
+    .header {
+        height: 823px;
+
+    }
+
+    .header-btn {
+        display: flex;
+        width: 30px;
+        height: 32px;
+        margin: -53px 307px;
+    }
+
+
+    .header-content-wrapper {
+        margin: -130px 106px;
+    }
+
+    .houses {
+        position: absolute;
+        width: 300px;
+        height: 64px;
+        left: calc(50% - 300px / 2);
+        text-align: center;
+    }
+
+    .header-puppy {
+        width: 260px;
+        height: 272px;
+        position: absolute;
+        top: 551px;
+        right: 0;
+        bottom: 0;
+    }
+
+    .houses-linc {
+        margin: 46px 42px;
+    }
+
+    #about {
+        min-height: 974px;
+    }
+
+    .about-shelter {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .about-shelter_item {
+        margin: 42px 10px;
+        width: 300px;
+        height: 494px;
+    }
+
+    .about-shelter_title {
+        /*font-size: 25px;*/
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .about-shelter_img-pets {
+        width: 260px;
+        height: 354px;
+        margin: 42px 30px;
+    }
+
+    .about-shelter_text {
+        width: 320px;
+        margin: 25px 0 21px -11px;
+        padding: 15px;
+    }
+
+    .about-shelter_text-two {
+        padding-top: 58px;
+    }
+
+    .slider-title {
+        /*font-size: 25px;*/
+        line-height: 32px;
+        text-align: center;
+        padding: 42px 10px;
+    }
+
+    .slider-card {
+        margin-bottom: 20px;
+    }
+
+    .slider-card-vis_1 {
+        display: none;
+    }
+
     .arrow-one {
         position: relative;
         left: 120px;
@@ -710,9 +941,101 @@ li {
         right: 120px;
         top: 267px;
     }
+
+    .search-link {
+        margin: 109px 68px;
+    }
+
+    .wrapper {
+        width: 290px;
+        margin: 0 15px 42px 51px;
+    }
+
+    .block {
+        margin: -1px;
+        justify-content: space-between;
+    }
+
+    .donation-title {
+        font-size: 25px;
+        left: 32px;
+        text-align: center;
+    }
+
+    .donation-phone {
+        font-size: 15px;
+    }
+
+    .donation-card {
+        width: 281px;
+    }
+
+    .donation-img {
+        width: 260px;
+        height: 135px;
+        margin: 42px 30px;
+    }
+
+    .donation-item {
+        margin: 42px 10px;
+        justify-content: center;
+    }
+
+    .donation-text {
+        width: 280px;
+        margin: 20px 10px;
+    }
+
+    #footer {
+        /*max-width: 320px;*/
+    }
+
+    .footer-info {
+        max-width: 258px;
+    }
+
+    .footer-title {
+        /*text-align: center;*/
+        margin: 30px 44px;
+    }
+
+    .footer-title-two {
+        margin: 44px 0;
+        padding-left: 38px;
+    }
+
+    .footer-items {
+        margin: 30px 61px 45px 64px;
+    }
+
+    .footer-items-one {
+        margin: 0;
+    }
+
+    .footer-item {
+        margin-left: 10px;
+    }
+
+    .footer-items:nth-child(2) {
+        margin: 17px;
+    }
+
+    .footer-img {
+        width: 260px;
+        height: 269px;
+        margin: 45px 30px 0 30px;
+    }
+
+    .footer-icons, .footer-item {
+        margin-top: 20px;
+    }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
+
+}
+
+@media (max-width: 340px) {
     .container {
         width: 320px;
         padding: 0;
@@ -726,10 +1049,6 @@ li {
     .header {
         height: 823px;
 
-    }
-
-    .header-logo {
-        /*margin: 0 -21px;*/
     }
 
     .header-btn {
@@ -891,6 +1210,7 @@ li {
     #footer {
         max-width: 320px;
     }
+
     .footer-info {
         max-width: 258px;
     }
@@ -930,6 +1250,8 @@ li {
     .footer-icons, .footer-item {
         margin-top: 20px;
     }
+
+
 
 }
 
