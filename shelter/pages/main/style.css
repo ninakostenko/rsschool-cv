@@ -787,6 +787,41 @@ li {
         display: none;
     }
 }
+@media (max-width: 900px) {
+    .footer-inform {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footer-items-one {
+        margin: 0;
+    }
+
+    .footer-items:nth-child(2) {
+        margin: 0;
+    }
+
+    .footer-img {
+        margin: 60px auto auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .menu-wrap {
+        position: absolute;
+        padding-left: 265px;
+        top: 46px;
+    }
+
+    .menu-list {
+        font-size: 15px;
+    }
+
+
+}
+
 
 @media (max-width: 750px) {
     .slider-card-vis_1 {

@@ -316,20 +316,7 @@ li {
         display: none;
     }
 }
-
-
-@media (max-width: 768px) {
-
-    .menu-wrap {
-        position: absolute;
-        padding-left: 265px;
-        top: 46px;
-    }
-
-    .menu-list {
-        font-size: 15px;
-    }
-
+@media (max-width: 900px) {
     .footer-inform {
         display: flex;
         justify-content: space-between;
@@ -347,6 +334,20 @@ li {
     .footer-img {
         margin: 60px auto auto;
     }
+}
+
+    @media (max-width: 768px) {
+
+    .menu-wrap {
+        position: absolute;
+        padding-left: 265px;
+        top: 46px;
+    }
+
+    .menu-list {
+        font-size: 15px;
+    }
+
 
 }
 
