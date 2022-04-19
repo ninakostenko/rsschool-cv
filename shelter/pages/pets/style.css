@@ -349,6 +349,20 @@ li {
 
 }
 
+@media (max-width: 690px) {
+    .menu {
+        display: none;
+    }
+
+    .header-btn {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+}
+
 @media (max-width: 320px) {
     .popup.open {
         left: 0;
@@ -426,20 +440,5 @@ li {
         margin-top: 20px;
     }
 }
-
-@media (max-width: 690px) {
-    .menu {
-        display: none;
-    }
-
-    .header-btn {
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-}
-
 
 
