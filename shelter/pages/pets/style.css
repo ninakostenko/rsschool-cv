@@ -226,10 +226,6 @@ li {
     justify-content: flex-start;
 }
 
-.footer-items:nth-child(2) {
-    margin-left: 160px;
-}
-
 .footer-item {
     display: flex;
     justify-content: center;
@@ -313,7 +309,7 @@ li {
     display: flex;
     width: 300px;
     height: 310px;
-    margin: 40px 40px 0 76px;
+    margin: auto;
 }
 @media (max-width: 1239px) {
     .slider-card-vis_freddie, .slider-card-vis_scarlet {

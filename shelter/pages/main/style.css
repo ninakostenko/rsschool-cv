@@ -445,9 +445,6 @@ li {
     justify-content: flex-start;
 }
 
-.footer-items:nth-child(2) {
-    margin-left: 160px;
-}
 
 .footer-item {
     display: flex;
@@ -695,7 +692,7 @@ li {
 
     .about-shelter_item {
         margin: 42px 10px;
-        width: 300px;
+        /*width: 300px;*/
         height: 494px;
     }
 
@@ -708,7 +705,7 @@ li {
     .about-shelter_img-pets {
         width: 260px;
         height: 354px;
-        margin: 42px 30px;
+        margin: 42px auto;
     }
 
     .slider-title {
