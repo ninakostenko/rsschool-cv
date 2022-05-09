@@ -53,6 +53,7 @@ li {
     height: 120px;
 }
 
+
 .header-btn {
     width: 60px;
     height: 60px;
@@ -69,7 +70,7 @@ li {
     width: 36px;
     height: 2px;
     background-color: #000000;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .menu {
@@ -311,6 +312,16 @@ li {
     height: 310px;
     margin: auto;
 }
+
+
+body.notscroll {
+    overflow: hidden;
+}
+
+.popup {
+    display: none;
+}
+
 @media (max-width: 1239px) {
     .slider-card-vis_freddie, .slider-card-vis_scarlet {
         display: none;
@@ -338,18 +349,122 @@ li {
 
     @media (max-width: 768px) {
 
+        .menu-wrap {
+            position: absolute;
+            padding-left: 265px;
+            top: 46px;
+        }
+
+        .menu-list {
+            font-size: 15px;
+        }
+    }
+
+@media (max-width: 767px) {
+    .slider-card-vis_1 {
+        display: none;
+    }
+
     .menu-wrap {
+        display: none;
+    }
+
+    .header-btn {
+        display: block;
         position: absolute;
-        padding-left: 265px;
-        top: 46px;
+        right: 0;
+        top: 0;
+    }
+
+    .popup {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 320px;
+        height: 100%;
+        background-color: #292929;
+        z-index: 1;
+        display: flex;
+        transition: all 0.5s;
+    }
+
+    .popup.open {
+        right: 0;
+    }
+
+    .popup .menu {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding: 50px 0;
+        overflow: auto;
+    }
+
+    .popup .menu > li {
+        width: 100%;
+    }
+
+    .popup .menu > li > a {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        font-size: 20px;
+        font-weight: bold;
+        color: #3f3f3f;
+    }
+    .bg {
+        background: rgba(41, 41, 41, 0.6);
+    }
+
+    .header-btn {
+        width: 30px;
+        height: 30px;
+        z-index: 2;
+    }
+
+    .header-btn.active div:nth-child(2) {
+        transform: translateX(6px) rotate(90deg);
+        position: absolute;
+    }
+
+    .header-btn.active div:nth-child(1) {
+        transform: translateX(17px) rotate(90deg);
+        position: absolute;
+        top: 0;
+    }
+
+    .header-btn.active div:nth-child(3) {
+        transform: translateX(-6px) rotate(-90deg);
+        position: absolute;
+        top: 0;
     }
 
     .menu-list {
-        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 39px auto;
+        font-family: 'Arial', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        /*line-height: 160%;*/
     }
 
+    .menu-list_link {
+        font-size: 32px;
+        line-height: 0;
+        margin-top: 50px;
+        color: #FAFAFA;
+    }
 
 }
+
 
 @media (max-width: 690px) {
     .menu {
@@ -362,13 +477,24 @@ li {
         right: 0;
         top: 0;
     }
-
-}
-@media (max-width: 690px) {
     .slider-card-vis {
         display: none;
     }
+
 }
+
+@media (max-width: 410px) {
+    .header-logo {
+        position: relative;
+        z-index: 2;
+    }
+
+
+    .popup {
+        width: 100%;
+    }
+}
+
 
 @media (max-width: 320px) {
     .popup.open {
@@ -442,6 +568,189 @@ li {
     .footer-icons, .footer-item {
         margin-top: 20px;
     }
+}
+
+/*slider*/
+
+.slider-card, .slider-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.slider-wrapper {
+    max-width: 1200px;
+    height: 930px;
+    margin: auto 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.carousel {
+    position: relative;
+    left: -600px;
+}
+
+@keyframes move-right {
+    from {
+        left: -600px;
+    }
+    to {
+        left: -1200px;
+    }
+}
+
+.transition-right {
+    animation-name: move-right;
+    animation-duration: 2s;
+}
+
+@keyframes move-left {
+    from {
+        left: 640px;
+    }
+    to {
+        left: 0;
+    }
+}
+
+.transition-left {
+    animation-name: move-left;
+    animation-duration: 2s;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/*modal*/
+
+.modal {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(41, 41, 41, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    /*display: none;*/
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.modal-active {
+    /*display: flex;*/
+    pointer-events: all;
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal_content {
+    width: 900px;
+    height: 500px;
+    background-color: #FAFAFA;
+    transition: 0.4s all;
+    border-radius: 9px 0 0 9px;
+    cursor: pointer;
+    display: flex;
+}
+
+.modal_content.active {
+    transform: scale(1);
+}
+
+.modal-btn {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    left: 942px;
+    bottom: 276px;
+    cursor: pointer;
+    font-size: 20px;
+    background: transparent;
+    padding: 10px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    /*width: 500px;*/
+    /*height: 500px;*/
+}
+
+.modal-card_name {
+    font-family: 'Georgia', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.modal-card_dog {
+    font-family: 'Georgia', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.modal-description {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto 20px;;
+}
+
+.modal-text {
+    font-family: 'Georgia', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #000000;
+    padding-top: 40px;
+}
+
+.modal-list_title {
+    font-family: 'Georgia', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #000000;
+    padding-top: 10px;
+}
+
+.modal-list {
+    padding-top: 40px;
+    list-style-image: url("../../assets/icons/dot.png");
+
+}
+
+.modal-list li::before {
+    content: '';
+    color: #24211c;
+    width: 7px;
+    height: 7px;
+    padding-right: 10px;
 }
 
 
